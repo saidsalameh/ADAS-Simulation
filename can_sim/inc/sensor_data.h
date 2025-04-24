@@ -8,5 +8,7 @@ typedef struct {
 } SensorData;
 
 void generate_sensor_data(SensorData* data);
+void update_speed(SensorData* data);
+float get_acceleration_value(void);
 
 #endif
